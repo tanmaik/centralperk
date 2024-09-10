@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Sample Content View")        }
+        Button("Option 1") {
+                        print("Option 1 clicked!")
+                    }
+                    Divider()
+                    Button("Quit") {
+                        NSApp.terminate(nil)
+                    }
     }
 }
 
