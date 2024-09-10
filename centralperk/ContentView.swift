@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Button("Option 1") {
-                        print("Option 1 clicked!")
+        Button("tanmai") {
+                        print("tanmai clicked!")
+                    }
+        Button("ishaan") {
+                        print("ishaan clicked!")
                     }
                     Divider()
                     Button("Quit") {
