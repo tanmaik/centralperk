@@ -7,11 +7,15 @@
 
 import SwiftUI
 
+
 @main
 struct centralperkApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra("CentralPerk", systemImage: "hand.wave.fill") {
+            
+           ContentView()
         }
+
+     
     }
 }

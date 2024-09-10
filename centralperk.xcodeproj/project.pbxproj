@@ -20,6 +20,7 @@
 		31C9900F2C90CBDB002305D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31C990122C90CBDB002305D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31C990142C90CBDB002305D3 /* centralperk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = centralperk.entitlements; sourceTree = "<group>"; };
+		31C9901A2C90CC71002305D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		31C9900A2C90CBDA002305D3 /* centralperk */ = {
 			isa = PBXGroup;
 			children = (
+				31C9901A2C90CC71002305D3 /* Info.plist */,
 				31C9900B2C90CBDA002305D3 /* centralperkApp.swift */,
 				31C9900D2C90CBDA002305D3 /* ContentView.swift */,
 				31C9900F2C90CBDB002305D3 /* Assets.xcassets */,
@@ -277,6 +279,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"centralperk/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = centralperk/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +306,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"centralperk/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = centralperk/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
